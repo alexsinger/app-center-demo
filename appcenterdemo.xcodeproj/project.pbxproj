@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8066683A56DA627E167ACE0E /* Pods_appcenterdemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1BF144C6E98FCE1D42DB9D /* Pods_appcenterdemo.framework */; };
 		9E7966FD1FCD34E500429AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7966FC1FCD34E500429AD8 /* AppDelegate.swift */; };
 		9E7966FF1FCD34E500429AD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7966FE1FCD34E500429AD8 /* ViewController.swift */; };
 		9E7967021FCD34E500429AD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7967001FCD34E500429AD8 /* Main.storyboard */; };
 		9E7967041FCD34E500429AD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7967031FCD34E500429AD8 /* Assets.xcassets */; };
 		9E7967071FCD34E500429AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7967051FCD34E500429AD8 /* LaunchScreen.storyboard */; };
-		9E7967121FCD37DD00429AD8 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E79670F1FCD372100429AD8 /* HockeySDK.framework */; };
-		9E7967131FCD37DD00429AD8 /* HockeySDKResources.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7967101FCD372100429AD8 /* HockeySDKResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C4D2355B9DCB6A2ACD89868 /* Pods-appcenterdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appcenterdemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-appcenterdemo/Pods-appcenterdemo.release.xcconfig"; sourceTree = "<group>"; };
+		9E1EA5D11FCDCCEB0015592E /* appcenterdemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appcenterdemo.entitlements; sourceTree = "<group>"; };
 		9E7966F91FCD34E500429AD8 /* appcenterdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appcenterdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7966FC1FCD34E500429AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E7966FE1FCD34E500429AD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +25,8 @@
 		9E7967031FCD34E500429AD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E7967061FCD34E500429AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E7967081FCD34E500429AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E79670F1FCD372100429AD8 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
-		9E7967101FCD372100429AD8 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+		FB4B694BEDE24DB1F75882E4 /* Pods-appcenterdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appcenterdemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appcenterdemo/Pods-appcenterdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1BF144C6E98FCE1D42DB9D /* Pods_appcenterdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appcenterdemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,8 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E7967121FCD37DD00429AD8 /* HockeySDK.framework in Frameworks */,
-				9E7967131FCD37DD00429AD8 /* HockeySDKResources.bundle in Frameworks */,
+				8066683A56DA627E167ACE0E /* Pods_appcenterdemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,10 +44,10 @@
 		9E7966F01FCD34E500429AD8 = {
 			isa = PBXGroup;
 			children = (
-				9E79670E1FCD372100429AD8 /* HockeySDK.embeddedframework */,
 				9E7966FB1FCD34E500429AD8 /* appcenterdemo */,
 				9E7966FA1FCD34E500429AD8 /* Products */,
 				9E7967111FCD37DD00429AD8 /* Frameworks */,
+				DBD8241BC27C37B6A9882898 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +62,7 @@
 		9E7966FB1FCD34E500429AD8 /* appcenterdemo */ = {
 			isa = PBXGroup;
 			children = (
+				9E1EA5D11FCDCCEB0015592E /* appcenterdemo.entitlements */,
 				9E7966FC1FCD34E500429AD8 /* AppDelegate.swift */,
 				9E7966FE1FCD34E500429AD8 /* ViewController.swift */,
 				9E7967001FCD34E500429AD8 /* Main.storyboard */,
@@ -72,21 +73,21 @@
 			path = appcenterdemo;
 			sourceTree = "<group>";
 		};
-		9E79670E1FCD372100429AD8 /* HockeySDK.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				9E79670F1FCD372100429AD8 /* HockeySDK.framework */,
-				9E7967101FCD372100429AD8 /* HockeySDKResources.bundle */,
-			);
-			name = HockeySDK.embeddedframework;
-			path = "HockeySDK-iOS/HockeySDK.embeddedframework";
-			sourceTree = "<group>";
-		};
 		9E7967111FCD37DD00429AD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FD1BF144C6E98FCE1D42DB9D /* Pods_appcenterdemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBD8241BC27C37B6A9882898 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B694BEDE24DB1F75882E4 /* Pods-appcenterdemo.debug.xcconfig */,
+				2C4D2355B9DCB6A2ACD89868 /* Pods-appcenterdemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,9 +97,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E79670B1FCD34E500429AD8 /* Build configuration list for PBXNativeTarget "appcenterdemo" */;
 			buildPhases = (
+				0F19C7EDB769140C2E97D46B /* [CP] Check Pods Manifest.lock */,
 				9E7966F51FCD34E500429AD8 /* Sources */,
 				9E7966F61FCD34E500429AD8 /* Frameworks */,
 				9E7966F71FCD34E500429AD8 /* Resources */,
+				BD3E7D2869DD8663291138E4 /* [CP] Embed Pods Frameworks */,
+				CBAA75AA9E72CFF2CBDA1FA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +126,11 @@
 					9E7966F81FCD34E500429AD8 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -155,6 +164,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F19C7EDB769140C2E97D46B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appcenterdemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD3E7D2869DD8663291138E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appcenterdemo/Pods-appcenterdemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAA75AA9E72CFF2CBDA1FA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appcenterdemo/Pods-appcenterdemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E7966F51FCD34E500429AD8 /* Sources */ = {
@@ -297,8 +357,10 @@
 		};
 		9E79670C1FCD34E500429AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4B694BEDE24DB1F75882E4 /* Pods-appcenterdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = appcenterdemo/appcenterdemo.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6U4V5EUFFJ;
@@ -319,8 +381,10 @@
 		};
 		9E79670D1FCD34E500429AD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4D2355B9DCB6A2ACD89868 /* Pods-appcenterdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = appcenterdemo/appcenterdemo.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6U4V5EUFFJ;

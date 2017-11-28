@@ -7,7 +7,11 @@
 //
 
 import UIKit
-import HockeySDK
+//import HockeySDK
+import AppCenter
+import AppCenterPush
+import AppCenterAnalytics
+import AppCenterCrashes
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,9 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        BITHockeyManager.shared().configure(withIdentifier: "efff9a04575c446198f418c08aa2834d")
-        BITHockeyManager.shared().start()
-        BITHockeyManager.shared().authenticator.authenticateInstallation() // This line is obsolete in the crash only builds
+        MSAppCenter.start("{efff9a04-575c-4461-98f4-18c08aa2834d}", withServices: [MSPush.self, MSAnalytics.self, MSCrashes.self])
+//        BITHockeyManager.shared().configure(withIdentifier: "efff9a04575c446198f418c08aa2834d")
+//        BITHockeyManager.shared().start()
+//        BITHockeyManager.shared().authenticator.authenticateInstallation() // This line is obsolete in the crash only builds
     
         return true
     }
