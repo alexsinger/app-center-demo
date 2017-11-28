@@ -19,8 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         BITHockeyManager.shared().configure(withIdentifier: "efff9a04575c446198f418c08aa2834d")
         BITHockeyManager.shared().start()
         BITHockeyManager.shared().authenticator.authenticateInstallation() // This line is obsolete in the crash only builds
+    
         return true
     }
+
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
