@@ -26,6 +26,13 @@ platform :ios do
   lane :test do
     scan
   end
+   
+  lane :build_app do
+  	gym(
+		scheme: "appcenterdemo",
+		export_method: "ad-hoc"
+	)
+  end  
 
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
