@@ -128,7 +128,7 @@
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -360,7 +360,6 @@
 			baseConfigurationReference = FB4B694BEDE24DB1F75882E4 /* Pods-appcenterdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = appcenterdemo/appcenterdemo.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6U4V5EUFFJ;
@@ -384,7 +383,6 @@
 			baseConfigurationReference = 2C4D2355B9DCB6A2ACD89868 /* Pods-appcenterdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = appcenterdemo/appcenterdemo.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6U4V5EUFFJ;
